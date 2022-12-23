@@ -1,0 +1,6 @@
+project: domonic
+target: domonic_fuzz
+
+cmds:
+    - cmd: /domonic/fuzz/domonic_fuzz.py
+      libfuzzer: true
